@@ -29,7 +29,7 @@ taxonomies = [
 ]
 
 [extra]
-blog_logo="/images/linuxpro_logo.png" #will appear on top header
+blog_logo="/images/avatar.png" #will appear on top header
 blog_title="LinuxPro" #will appear on top header after logo
 
 ## i18n words
