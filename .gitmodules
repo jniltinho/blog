@@ -1,3 +1,0 @@
-[submodule "dinkleberg"]
-	path = dinkleberg
-	url = https://github.com/rust-br/dinkleberg.git
