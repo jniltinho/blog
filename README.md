@@ -1,7 +1,7 @@
 # Site LinuxPro
-Static Site https://www.linuxpro.com.br created with Hexo + Google App Engine
+Static Site https://www.linuxpro.com.br created with Zola + Google App Engine
 
-![image](https://raw.githubusercontent.com/jniltinho/blog/master/source/images/site_screen.png)
+![image](https://raw.githubusercontent.com/jniltinho/blog/master/backup/blog/source/images/site_screen.png)
 
 # Howto Install Hexo
 https://www.linuxpro.com.br/2017/04/install-hexo-on-ubuntu/
@@ -24,7 +24,7 @@ Qualquer dúvida entre em contato comigo.
 
 
 # Site Screen
-![image](https://raw.githubusercontent.com/jniltinho/blog/master/source/images/site_screen2.png)
+![image](https://raw.githubusercontent.com/jniltinho/blog/master/backup/blog/source/images/site_screen2.png)
 
 
 
