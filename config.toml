@@ -21,6 +21,7 @@ title = "LinuxPro"
 hyde_links = [
     {url = "https://google.com", name = "Google.com"},
     {url = "https://google.fr", name = "Google.fr"},
+    {url = "/about", name = "Sobre o Blog"},
 ]
 hyde_sticky = false
 hyde_theme = "theme-base-08"

@@ -1,24 +1,15 @@
----
-title: Cargos de TI em alta e em baixa no Brasil
-categories:
-- TI
-- Linux
-- DevOps
-date: 2017-10-01 13:34:03
-tags:
-- ti
-- linux
-- devops
----
++++
+title = "Cargos de TI em alta e em baixa no Brasil"
+date = 2017-10-01T10:54:00Z
+draft = false
++++
 
 
 ![](/images/cargos-de-ti.png)
 
-
 Não dá para dizer que o mercado de trabalho em tecnologia da informação está indo bem em 2017, mas é inegável que o setor foi um dos que menos sofreram com a crise. Isso porque, em tempos difíceis, a área é vista pelas empresas como aliada da produtividade e da rentabilidade — tanto para enxugar custos quanto para ampliar oportunidades de negócios.
 
 <!-- more -->
-
 
 Um relatório recente da consultoria HAYS mostra que, em 2016, companhias de todos os setores apostaram na customização de sistemas de gestão e projetos de business intelligence (BI). "Nenhuma companhia deixou de investir em tecnologia por causa da conjuntura do país, muito pelo contrário", diz Raphael Falcão, diretor da [HAYS Experts](https://www.hays.com.br).
 
@@ -62,10 +53,9 @@ A mesma lógica vale para coordenadores e analistas de infraestrutura não-virtu
 * http://exame.abril.com.br/carreira/estes-sao-os-cargos-de-ti-em-alta-e-em-baixa-no-brasil/
 * https://www.hays.com.br
 
-
-{% blockquote %}
+{% quote(author="Nilton") %}
 Chegamos ao fim do artigo, achou o que estava procurando?
 Faltou alguma informação?
 Alguma parte ficou mal redigida?
 Posso melhorar o artigo de alguma forma? Deixe seu feedback, é muito importante!
-{% endblockquote %}
+{% end %}

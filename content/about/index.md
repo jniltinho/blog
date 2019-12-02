@@ -39,7 +39,6 @@ I invite to read the blog and your posts and visit my Youtube channel more calml
 **To another post and thanks for being here !!!!**
 
 
-
 **Follow**
 
 * [GitHub](https://github.com/jniltinho)
