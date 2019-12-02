@@ -1,41 +1,31 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/08e60aa5-3737-4baa-a5b7-e4f44f77e8f7/deploy-status)](https://app.netlify.com/sites/linuxpro/deploys)
 
-# Site LinuxPro
+# Site LinuxPro Hospedado no @Netlify
+
 Static Site https://www.linuxpro.com.br created with Zola + Netlify
 
-![image](https://raw.githubusercontent.com/jniltinho/blog/master/backup/blog/source/images/site_screen.png)
+![image](https://raw.githubusercontent.com/jniltinho/blog/master/static/images/site_screen.png)
 
-# Howto Install Hexo
-https://www.linuxpro.com.br/2017/04/install-hexo-on-ubuntu/
+## Criando seu Blog com o Zola
 
-# Install Google GCP SDK
+https://codeshow.com.br/criando-seu-blog-com-zola-e-hospedando-de-graca-na-netlify
 
-```bash
-curl https://sdk.cloud.google.com | bash
-```
-https://cloud.google.com/sdk/downloads
+## Como contribuir com o Site/Projeto
 
-
-# Como contribuir com o Site/Projeto
-É só enviar um **pull request** (pr) do seu novo arquivo **markdown** (.md) que deve ficar na **pasta** [posts](https://github.com/jniltinho/blog/tree/master/source/_posts).
+É só enviar um **pull request** (pr) do seu novo arquivo **markdown** (.md) que deve ficar na **pasta** [posts](https://github.com/jniltinho/blog/tree/master/content).
 
 Qualquer dúvida entre em contato comigo.
 
 **Grato !!!**
 
+## Site Screen
 
-
-# Site Screen
-![image](https://raw.githubusercontent.com/jniltinho/blog/master/backup/blog/source/images/site_screen2.png)
-
-
+![image](https://raw.githubusercontent.com/jniltinho/blog/master/static/images/site_screen2.png)
 
 ## Links
 
-  * https://cloud.google.com/appengine/docs/standard/python/getting-started/hosting-a-static-website
-  * https://cloud.google.com/appengine/docs/standard/python/mapping-custom-domains
-  * http://www.fizerkhan.com/blog/posts/Free-Static-Page-Hosting-on-Google-App-Engine-in-a-5-minutes.html
-  * https://gist.github.com/darktable/873098
-  * https://cloud.google.com/sdk/downloads
-
-
+* https://cloud.google.com/appengine/docs/standard/python/getting-started/hosting-a-static-website
+* https://cloud.google.com/appengine/docs/standard/python/mapping-custom-domains
+* http://www.fizerkhan.com/blog/posts/Free-Static-Page-Hosting-on-Google-App-Engine-in-a-5-minutes.html
+* https://gist.github.com/darktable/873098
+* https://cloud.google.com/sdk/downloads
