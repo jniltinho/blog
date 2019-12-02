@@ -24,4 +24,4 @@ hyde_links = [
 ]
 hyde_sticky = false
 hyde_theme = "theme-base-08"
-hyde_reverse = true
+hyde_reverse = false
