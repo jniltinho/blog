@@ -2,7 +2,10 @@
 
 # Site LinuxPro Hospedado no @Netlify
 
-Static Site https://www.linuxpro.com.br created with Zola + Netlify
+Static Site LinuxPro created with Zola + Netlify
+
+* [Versão Demo, migrando para o Zola](https://linuxpro.netlify.com/)
+* [Versão Antiga, com Hugo](https://www.linuxpro.com.br)
 
 ![image](https://raw.githubusercontent.com/jniltinho/blog/master/static/images/site_screen.png)
 
