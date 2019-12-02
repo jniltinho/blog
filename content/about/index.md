@@ -1,5 +1,5 @@
 +++
-title: "About Me"
+title = "About Me"
 +++
 
 ![](/images/about_me.jpeg)
