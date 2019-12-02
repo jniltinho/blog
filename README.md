@@ -1,5 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/08e60aa5-3737-4baa-a5b7-e4f44f77e8f7/deploy-status)](https://app.netlify.com/sites/linuxpro/deploys)
+
 # Site LinuxPro
-Static Site https://www.linuxpro.com.br created with Zola + Google App Engine
+Static Site https://www.linuxpro.com.br created with Zola + Netlify
 
 ![image](https://raw.githubusercontent.com/jniltinho/blog/master/backup/blog/source/images/site_screen.png)
 
