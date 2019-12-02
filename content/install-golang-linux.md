@@ -1,7 +1,17 @@
 +++
 title = "Instalando Golang no Linux"
-date = 2019-12-02T10:54:00Z
+description = "Instalando Golang no Linux"
+date=2019-12-02T10:54:00Z
 draft = false
+slug = "install-golang-linux"
+
+[taxonomies]
+categories = ["Dicas"]
+tags = ["blog", "zola", "golang", "static-site"]
+
+[extra]
+author = "jniltinho"
+comments = true
 +++
 
 ![](/images/golang.png)

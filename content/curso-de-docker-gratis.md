@@ -1,7 +1,17 @@
 +++
 title = "Curso de Docker Grátis"
+description = "Curso de Docker Grátis"
 date = 2017-08-31T10:54:00Z
 draft = false
+slug = "curso-de-docker-gratis"
+
+[taxonomies]
+categories = ["Dicas"]
+tags = ["blog", "zola", "golang", "static-site"]
+
+[extra]
+author = "jniltinho"
+comments = true
 +++
 
 ![](/images/curso-docker-gratis.png)

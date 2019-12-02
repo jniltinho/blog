@@ -4,6 +4,8 @@ base_url = "https://linuxpro.netlify.com"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
+default_language = 'pt'
+
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
@@ -11,18 +13,64 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-theme = "hyde"
-description = "Linux em todo Lugar"
-title = "LinuxPro"
+theme = "dinkleberg"
+
+paginate_by = 5
+
+generate_rss = true
+
+generate_categories_pages = true
+generate_tags_pages = true
+
+taxonomies = [
+    # You can enable/disable RSS
+    {name = "categories", rss = true},
+    {name = "tags", rss = true},
+]
 
 [extra]
-# Put all your custom variables here
+blog_logo="/images/linuxpro_logo.png" #will appear on top header
+blog_title="LinuxPro" #will appear on top header after logo
 
-hyde_links = [
-    {url = "https://google.com", name = "Google.com"},
-    {url = "https://google.fr", name = "Google.fr"},
-    {url = "/about", name = "Sobre o Blog"},
+## i18n words
+label_tags = "Tags"
+label_tag = "Tag"
+label_categories = "Categorias"
+label_category = "Categoria"
+label_relative_posts = "Postagens Relacionadas"
+label_next = "Próxima"
+label_previous = "Anterior"
+label_page = "Página"
+label_of = "de"
+label_minutes = "minutos"
+
+og_image="/codeshow_py.png" # Image that will appear on social media
+og_alt_image="/hands_in_show.png" # Alt for og_image
+og_site_name="LinuxPro" # Site Name for Open Graphic
+keywords="programação, desenvolvimento, programador, python, golang, engenharia de software" # Keywords for SEO
+
+educational_use="knowledge share" # OPTIONAL
+copyright_year="2019" # OPTIONAL
+
+#fb_app_id="???" # OPTIONAL, Facebook App Id to help in metrics
+twitter_username="@nilton_os" # OPTIONAL, Twitter User to help with metrics
+
+## Sidebar automatic links
+sidebar = [
+    {name = "Links:", urls=[
+        {name="📺 Youtube", url="https://youtube.com/linuxpro", target="_blank"},
+        {name="💻 GitLab", url="https://gitlab.com/jniltinho", target="_blank"},
+        {name="💻 Github", url="https://github.com/jniltinho", target="_blank"},
+    ]},
+    {name = "Conteúdo:", urls=[
+        {name="🗃 Categorias", url="/categories", target="_self"},
+        {name="🏷 Tags", url="/tags", target="_self"},
+        {name="🖼 Sobre", url="/about", target="_self"},
+    ]},
 ]
-hyde_sticky = false
-hyde_theme = "theme-base-08"
-hyde_reverse = false
+
+top_image = {path = '../static/top_banner.png', width=1015, height=250, op='fill', url='https://www.youtube.com/c/LinuxPro?sub_confirmation=1', target="_blank"}
+
+authors = {jniltinho={name='Nilton Oliveira', avatar='https://avatars0.githubusercontent.com/u/458654?s=200&v=4'}}
+
+ganalytics = 'UA-2170900-10'

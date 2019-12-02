@@ -1,9 +1,18 @@
 +++
 title = "Cargos de TI em alta e em baixa no Brasil"
-date = 2017-10-01T10:54:00Z
+description = "Cargos de TI em alta e em baixa no Brasil"
+date=2017-10-01T10:54:00Z
 draft = false
-+++
+slug = "cargos-de-ti-em-alta"
 
+[taxonomies]
+categories = ["Dicas"]
+tags = ["blog", "zola", "golang", "static-site"]
+
+[extra]
+author = "jniltinho"
+comments = true
++++
 
 ![](/images/cargos-de-ti.png)
 
