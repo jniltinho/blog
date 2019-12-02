@@ -1,7 +1,6 @@
----
-title: About Me
-date: 2017-04-05 10:55:03
----
++++
+title: "About Me"
++++
 
 ![](/images/about_me.jpeg)
 
