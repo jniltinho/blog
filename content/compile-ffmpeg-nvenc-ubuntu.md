@@ -47,9 +47,8 @@ Com esse codec da NVIDIA você vai acelerar a edição e captura de video no seu
 * http://www.diolinux.com.br/2016/07/como-instalar-o-ffmpeg-nvenc-no-ubuntu.html
 
 {% quote(author="Nilton") %}
-
-* Chegamos ao fim do artigo, achou o que estava procurando?
-* Faltou alguma informação?
-* Alguma parte ficou mal redigida?
-* Posso melhorar o artigo de alguma forma? Deixe seu feedback, é muito importante!
+Chegamos ao fim do artigo, achou o que estava procurando?
+Faltou alguma informação?
+Alguma parte ficou mal redigida?
+Posso melhorar o artigo de alguma forma? Deixe seu feedback, é muito importante!
 {% end %}
