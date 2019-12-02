@@ -1,0 +1,6 @@
+[submodule "themes/dinkleberg"]
+	path = themes/dinkleberg
+	url = https://github.com/rust-br/dinkleberg
+[submodule "themes/hyde"]
+	path = themes/hyde
+	url = https://github.com/codeshow/hyde.git
