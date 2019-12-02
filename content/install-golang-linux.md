@@ -1,5 +1,5 @@
 +++
-title = "Install Golang"
+title = "Instalando Golang no Linux"
 date = 2019-12-02T10:54:00Z
 draft = false
 +++
@@ -16,11 +16,11 @@ Caso você queira saber mais sobre linguagens de programação sugiro que [leia 
 
 ## Principais características
 
-  * Código aberto
-  * Combina recursos de alto e baixo nível
-  * Sintaxe simples, buscando facilidade para aprender e programar
-  * Altamente escalável
-  * Ótimo recurso de programação concorrente
+* Código aberto
+* Combina recursos de alto e baixo nível
+* Sintaxe simples, buscando facilidade para aprender e programar
+* Altamente escalável
+* Ótimo recurso de programação concorrente
 
 A linguagem Go vem alcançando posições cada vez melhores nos rankings das linguagens de programação. Dropbox, Uber e SendGrid são alguns exemplos de empresas que utilizam essa tecnologia. No Brasil, a tecnologia ainda não é muito forte.
 
@@ -46,14 +46,14 @@ bash install_golang.sh
 
 ## Links
 
-  * https://golang.org/dl/
-  * https://golang.org/
-  * https://tour.golang.org/welcome/1
-  * https://gist.github.com/jniltinho/8758e15a9ef80a189fce
+* https://golang.org/dl/
+* https://golang.org/
+* https://tour.golang.org/welcome/1
+* https://gist.github.com/jniltinho/8758e15a9ef80a189fce
 
-{% blockquote %}
+{% quote(author="Nilton") %}
 Chegamos ao fim do artigo, achou o que estava procurando?
 Faltou alguma informação?
 Alguma parte ficou mal redigida?
 Posso melhorar o artigo de alguma forma? Deixe seu feedback, é muito importante!
-{% endblockquote %}
+{% end %}
