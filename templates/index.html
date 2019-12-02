@@ -68,9 +68,31 @@
 
 {% block content -%}
     {% if config.extra.top_image %}
-    <a href="{{config.extra.top_image.url | default(value='/') | safe}}" target="{{config.extra.top_image.target | default(value='_self') | safe}}">
-        <img src="{{ resize_image(path=config.extra.top_image.path, width=config.extra.top_image.width, height=config.extra.top_image.height, op=config.extra.top_image.op) }}" style="max-width:100%;margin-bottom:20px;"/>
-    </a>
+    <div class="gallery autoplay items-3">
+
+                <div id="item-1" class="control-operator"></div>
+                <div id="item-2" class="control-operator"></div>
+                <div id="item-3" class="control-operator"></div>
+
+                <figure class="item">
+                    <h1><img src="imagens/top_banner.png"></h1>
+                </figure>
+
+                <figure class="item">
+                        <h1><img src="imagens/top_banner1.png"></h1>
+                </figure>
+
+                <figure class="item">
+                    <h1><img src="imagens/top_banner2.png"></h1>
+                </figure>
+
+                <div class="controls">
+                    <a href="#item-1" class="control-button">.</a>
+                    <a href="#item-2" class="control-button">.</a>
+                    <a href="#item-3" class="control-button">.</a>
+                </div>
+
+    </div>
     {% endif %}
     <main class="main">
         {%- for page in paginator.pages -%}
