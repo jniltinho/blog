@@ -37,12 +37,7 @@ O script baixo o Go, a última versão estável e coloca na pasta /usr/local e d
 Também não podemos esquecer que você precisa instalar o pacote git-core no seu Linux e criar uma pasta chamada GO no seu home, não precisa ser como root, use esse comando **mkdir ~/GO** para criar a pasta pelo terminal.
 
 
-
-```bash Instalando Golang Linux
-sudo su
-wget https://gist.githubusercontent.com/jniltinho/8758e15a9ef80a189fce/raw/541bfba4033efabd77824df62e74025fc600de62/install_golang.sh
-bash install_golang.sh
-```
+{{ gist(url="https://gist.github.com/jniltinho/8758e15a9ef80a189fce") }}
 
 ## Links
 
