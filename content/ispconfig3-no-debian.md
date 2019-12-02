@@ -38,11 +38,9 @@ Essa instalação estou usando o Apache2, em breve vou criar um [script](https:/
 * [Site HackLang](http://hacklang.org/)
 * [Tutorial HackLang](http://hacklang.org/tutorial.html)
 
-
-
-{% blockquote %}
+{% quote(author="Nilton") %}
 Chegamos ao fim do artigo, achou o que estava procurando?
 Faltou alguma informação?
 Alguma parte ficou mal redigida?
 Posso melhorar o artigo de alguma forma? Deixe seu feedback, é muito importante!
-{% endblockquote %}
+{% end %}
