@@ -71,6 +71,6 @@ sidebar = [
 
 top_image = {path = '../static/top_banner.png', width=1015, height=250, op='fill', url='https://www.youtube.com/c/LinuxPro?sub_confirmation=1', target="_blank"}
 
-authors = {jniltinho={name='Nilton Oliveira', avatar='https://avatars0.githubusercontent.com/u/458654?s=200&v=4'}}
+authors = {jniltinho={name='Nilton Oliveira', avatar='https://avatars3.githubusercontent.com/u/1027494?s=460&v=4'}}
 
 ganalytics = 'UA-2170900-10'
