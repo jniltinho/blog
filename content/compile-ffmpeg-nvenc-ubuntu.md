@@ -1,7 +1,7 @@
 +++
 title = "Compilar FFMPEG com NVENC no Ubuntu"
 description = "Compilar FFMPEG com NVENC no Ubuntu"
-date=2017-04-10T10:54:00Z
+date = 2017-04-10T10:54:00Z
 draft = false
 slug = "compile-ffmpeg-nvenc-ubuntu"
 
