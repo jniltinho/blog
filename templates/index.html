@@ -40,7 +40,7 @@
     <meta property="og:site_name" content="{{config.extra.og_site_name}}">
     <meta name="twitter:image:alt" content="{% block ogaltimg %}{{config.extra.og_alt_image}}{% endblock ogaltimg %}">
 
-    <link rel="stylesheet" href="css/slides.css">
+    <link rel="stylesheet" href="{{get_url(path="/css/slides.css") }}">
 
     {% if config.extra.fb_app_id -%}
         <meta property="fb:app_id" content="{{config.extra.fb_app_id}}" />
