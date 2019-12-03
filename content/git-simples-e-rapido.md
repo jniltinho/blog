@@ -3,7 +3,7 @@ title = "Git simples e rápido"
 description = "Git simples e rápido"
 date = 2017-04-13T10:54:00Z
 draft = false
-slug = "hospedagem-com-ispconfig"
+slug = "git-simples-e-rapido"
 
 [taxonomies]
 categories = ["Desenv", "DevOps", "Linux"]
