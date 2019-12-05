@@ -52,7 +52,7 @@ provider.tf
 
 {{ youtube(id="wDjZGkfphbk") }}
 
-![](/images/tux.png)
+![](/images/to-be-continued.png)
 
 **Nota:** Esse artigo precisa ser melhorado ...
 
