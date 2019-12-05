@@ -61,3 +61,5 @@ provider.tf
 ## Links
 
 * [Post Original](https://medium.com/@timhberry/terraform-pipelines-in-gitlab-415b9d842596)
+* [Do zero ao deploy #1](https://www.youtube.com/watch?v=wDjZGkfphbk)
+* [Do zero ao deploy #2](https://www.youtube.com/watch?v=L69ZBHIqPZo)
