@@ -6,8 +6,8 @@ draft = false
 slug = "terraform-pipelines-in-gitlab"
 
 [taxonomies]
-categories = ["Desenv", "DevOps", "Linux"]
-tags = ["devops", "git", "gitlab", "ci/cd", "linux", "terraform"]
+categories = ["DevOps", "Terraform", "Cloud"]
+tags = ["devops", "git", "gitlab", "ci/cd", "cloud", "terraform"]
 
 [extra]
 author = "jniltinho"
