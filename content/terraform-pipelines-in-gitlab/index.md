@@ -40,11 +40,11 @@ O Terraform trata a infraestrutura como código e dessa forma você pode version
 
 O Terraform é desenvolvido e mantido pela empresa Hashicorp. Ele é gratuito com código fonte aberto e assim pode receber contribuições da comunidade no GitHub (https://github.com/hashicorp/terraform). Ele está disponível para download na página: https://www.terraform.io/downloads.html
 
-![](gitlab-ci_03.png)
-
 ## Começando
 
 Este tutorial pressupõe que você criou uma conta gratuita no [GitLab](https://gitlab.com), mas também pode seguir sozinho com um servidor independente. Crie um novo projeto e adicione sua chave SSH para uso conveniente do git (o GitLab solicitará que você faça isso).
+
+![](gitlab-ci_03.png)
 
 Em seguida, adicione algumas configurações do Terraform ao seu repositório. Você pode usar os arquivos de exemplo da minha introdução à postagem do Terraform que constroem um cluster GKE básico. Você também precisará configurar o estado remoto, que é detalhado na minha postagem de pipelines anterior.
 
@@ -73,6 +73,5 @@ provider.tf
 ## Links
 
 * [Post Original](https://medium.com/@timhberry/terraform-pipelines-in-gitlab-415b9d842596)
-* [CI/CD RedHat](https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd)
 * [Do zero ao deploy #1](https://www.youtube.com/watch?v=wDjZGkfphbk)
 * [Do zero ao deploy #2](https://www.youtube.com/watch?v=L69ZBHIqPZo)
