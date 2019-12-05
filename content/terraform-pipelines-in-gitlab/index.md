@@ -51,6 +51,10 @@ provider.tf
 
 ----
 
+## Vídeo Howto do GitLab CI
+
+{{ youtube(id="wDjZGkfphbk") }}
+
 ![](/images/tux.png)
 
 **Nota:** Esse artigo precisa ser melhorado ...
