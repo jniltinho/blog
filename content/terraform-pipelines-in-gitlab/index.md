@@ -90,13 +90,13 @@ gkecluster.tf
 provider.tf
 ```
 
-## Vídeo Howto do Gitlab-CI
+## Para ilustrar esse artigo segue um vídeo criando um CI/CD no GitLab
 
 {{ youtube(id="wDjZGkfphbk") }}
 
 ![](/images/to-be-continued.png)
 
-**Nota:** Esse artigo vai ser melhorado em breve ...
+**Nota: Esse artigo vai ser melhorado em breve ...**
 
 ----
 
