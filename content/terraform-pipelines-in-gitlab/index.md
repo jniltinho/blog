@@ -18,9 +18,9 @@ comments = true
 
 ## O que é o GitLab?
 
-O GitLab é um serviço Git hospedado, bem como o GitHub. Você pode ter ouvido falar deles recentemente desde uma certa aquisição e o movimento #movingtogitlab. Se você não gosta de serviços hospedados, o GitLab fornece um servidor autônomo que pode ser implantado no local ou na nuvem e, louvávelmente, a maior parte do desenvolvimento de seus produtos para servidores é de código aberto.
+O [GitLab](https://gitlab.com) é um serviço que hospeda projetos Git, similar ao [GitHub](https://github.com/). Eu mesmo hospedo alguns de [meus projetos](https://gitlab.com/jniltinho) no GitLab. Se você não gosta de serviços hospedados, o GitLab fornece um servidor autônomo que pode ser implantado no local ou na nuvem, a maior parte do desenvolvimento de seus produtos para servidores é de código aberto.
 
-O GitLab é um defensor do DevOps há muito tempo e agrupa uma tonelada de ferramentas úteis em seus produtos, incluindo quadros Kanban e um sistema completo de CI / CD. Você pode até usar o GitLab apenas para os recursos de CI / CD se o seu repositório git estiver em outro lugar.
+O GitLab é um defensor do DevOps há muito tempo e agrupa uma tonelada de ferramentas úteis em seus produtos, incluindo quadros Kanban e um sistema completo de CI/CD. Você pode até usar o GitLab apenas para os recursos de CI/CD se o seu repositório git estiver em outro lugar.
 
 Existem alguns conceitos fundamentais para a abordagem do GitLab ao IC, que fazem sentido quando você está acostumado a eles, mas podem afetar sua decisão de usá-lo em seu projeto:
 
@@ -32,7 +32,7 @@ Existem alguns conceitos fundamentais para a abordagem do GitLab ao IC, que faze
 
 ## Começando
 
-Este tutorial pressupõe que você criou uma conta gratuita no gitlab.com, mas também pode seguir sozinho com um servidor independente. Crie um novo projeto e adicione sua chave SSH para uso conveniente do git (o GitLab solicitará que você faça isso).
+Este tutorial pressupõe que você criou uma conta gratuita no [GitLab](https://gitlab.com), mas também pode seguir sozinho com um servidor independente. Crie um novo projeto e adicione sua chave SSH para uso conveniente do git (o GitLab solicitará que você faça isso).
 
 Em seguida, adicione algumas configurações do Terraform ao seu repositório. Você pode usar os arquivos de exemplo da minha introdução à postagem do Terraform que constroem um cluster GKE básico. Você também precisará configurar o estado remoto, que é detalhado na minha postagem de pipelines anterior.
 
@@ -52,10 +52,9 @@ provider.tf
 
 {{ youtube(id="wDjZGkfphbk") }}
 
-
 ![](/images/to-be-continued.png)
 
-**Nota:** Esse artigo precisa ser melhorado ...
+**Nota:** Esse artigo vai ser melhorado em breve ...
 
 ----
 
