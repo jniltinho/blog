@@ -28,7 +28,6 @@ Existem alguns conceitos fundamentais para a abordagem do GitLab ao IC, que faze
 2. Cada confirmação no repositório acionará uma execução desse pipeline
 3. Isso significa que não é necessário solicitar variáveis a um usuário (se você está acostumado a parametrizar trabalhos de Jenkins, isso pode ser um choque)
 
-
 ![](gitlab-ci_03.png)
 
 ## Começando
@@ -49,9 +48,7 @@ gkecluster.tf
 provider.tf
 ```
 
-----
-
-## Vídeo Howto do GitLab CI
+## Vídeo Howto do Gitlab-CI
 
 {{ youtube(id="wDjZGkfphbk") }}
 
@@ -59,6 +56,8 @@ provider.tf
 
 **Nota:** Esse artigo precisa ser melhorado ...
 
+----
+
 ## Links
 
-* https://medium.com/@timhberry/terraform-pipelines-in-gitlab-415b9d842596
+* [Post Original](https://medium.com/@timhberry/terraform-pipelines-in-gitlab-415b9d842596)
