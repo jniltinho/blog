@@ -16,13 +16,15 @@ comments = true
 
 ## Vamos falar sobre o GitLab
 
-O [GitLab](https://gitlab.com) é um serviço que hospeda projetos Git, similar ao [GitHub](https://github.com/). Eu mesmo hospedo alguns de [meus projetos](https://gitlab.com/jniltinho) no GitLab. Se você não gosta de serviços hospedados, o GitLab fornece um servidor autônomo que pode ser implantado no local ou na nuvem, a maior parte do desenvolvimento de seus produtos para servidores é de código aberto.
+O [GitLab](https://gitlab.com) é um gerenciador de repositório de software baseado em git, com suporte a Wiki, gerenciamento de tarefas e CI/CD. [GitLab](https://gitlab.com) é similar ao [GitHub](https://github.com/), mas o [GitLab](https://gitlab.com) permite que os desenvolvedores armazenem o código em seus próprios servidores, ao invés de servidores de terceiros. Ele é software livre, distribuído pela Licença MIT. Está disponível como um pacote Omnibus, assim como um instalador simplificado provido pela Bitnami e pela Digital Ocean.
 
-O GitLab é um defensor do DevOps há muito tempo e agrupa uma tonelada de ferramentas úteis em seus produtos, incluindo quadros Kanban e um sistema completo de CI/CD. Você pode até usar o GitLab apenas para os recursos de CI/CD se o seu repositório git estiver em outro lugar.
+O código foi originalmente escrito em Ruby, com algumas partes posteriormente re-escritas em Go. A empresa possui atualmente 325 funcionários assalariados e o projeto de software livre conta com mais de 2.100 colaboradores.
 
 ![](gittlab-logo.png)
 
-Existem alguns conceitos fundamentais para a abordagem do GitLab ao IC, que fazem sentido quando você está acostumado a eles, mas podem afetar sua decisão de usá-lo em seu projeto:
+É usado por mais de 100.000 organizações, incluindo IPqM (Marinha do Brasil), IBM, Serpro (Serviço Federal de Processamento de Dados), NASA, Alibaba, Invincea, O’Reilly Media, CERN, Projeto GNOME e SpaceX.
+
+Existem alguns conceitos fundamentais para a abordagem do GitLab ao CI/CD, que fazem sentido quando você está acostumado a eles, mas podem afetar sua decisão de usá-lo em seu projeto:
 
 1. Todo repositório possui uma única configuração de pipeline, declarada em um arquivo .gitlab-ci.yml
 2. Cada confirmação no repositório acionará uma execução desse pipeline
