@@ -49,9 +49,11 @@ gkecluster.tf
 provider.tf
 ```
 
-> Esse arqtigo precisa ser melhorado ...
+----
 
- ![](/images/tux.png)
+![](/images/tux.png)
+
+**Nota:** Esse artigo precisa ser melhorado ...
 
 ## Links
 
