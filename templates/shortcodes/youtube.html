@@ -1,24 +1,22 @@
 
 
-{% if youtube %}
 <div class='embed-container'>
     <iframe 
-        src="https://www.youtube.com/embed/{{youtube}}{% if autoplay %}?autoplay=1{% endif %}" 
+        src="https://www.youtube.com/embed/{{id}}{% if autoplay %}?autoplay=1{% endif %}" 
         frameborder='0' 
         allowfullscreen>
     </iframe>
 </div>
-{% endif %}
 
 
-{% if youtube2 %}
+{% if width and height %}
 <div {% if class %}class="{{class}}"{% endif %}>
     <iframe
-        src="https://www.youtube.com/embed/{{youtube2}}{% if autoplay %}?autoplay=1{% endif %}"
+        src="https://www.youtube.com/embed/{{id}}{% if autoplay %}?autoplay=1{% endif %}"
         webkitallowfullscreen
         mozallowfullscreen
         allowfullscreen
-        width="705" height="400"
+        width="{{width}}" height="{{height}}"
         frameborder="0"
         scrolling="no">
     </iframe>

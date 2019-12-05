@@ -27,7 +27,7 @@ O Hexo é framework para blogs escrito em Nodejs; diferentemente do Wordpress el
 * O Hexo usa o Markdown que é uma forma de você escrever ( seria um HTML simplificado)
 * Suporta Plugins e Temas, bem parecido com o Wordpress.
 
-{{ youtube("Ii4le3TJqTw") }}
+{{ youtube(id="Ii4le3TJqTw") }}
 
 ## Instalando o Hexo no Ubuntu 16.04/18.04/19.04
 
