@@ -120,7 +120,7 @@ Agora você é capaz de enviar suas alterações para o servidor remoto selecion
 
 Assiste o vídeo **"Descomplicando o GIT"** feito pelo [LinuxTips](https://www.youtube.com/channel/UCJnKVGmXRXrH49Tvrx5X0Sw), grande [Jeferson](https://br.linkedin.com/in/jefersonfernando).
 
-{{ youtube(id="_aj3hsEh9iw") }}
+{{ youtube("_aj3hsEh9iw") }}
 
 ## Links
 

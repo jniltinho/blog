@@ -46,7 +46,6 @@ Execute os passos abaixo como root, é só baixar o script com wget e executar, 
 O script baixo o Go, a última versão estável e coloca na pasta /usr/local e depois adiciona o PATH no arquivo /etc/profile, simples e rápido, creio que essa seja a linguagem de programação mais fácil de instalar de todos os tempos.
 Também não podemos esquecer que você precisa instalar o pacote git-core no seu Linux e criar uma pasta chamada GO no seu home, não precisa ser como root, use esse comando **mkdir ~/GO** para criar a pasta pelo terminal.
 
-
 {{ gist(url="https://gist.github.com/jniltinho/8758e15a9ef80a189fce") }}
 
 ## Links

@@ -26,7 +26,7 @@ Em virtude disso resolvi criar esse post para organizar todas as aulas na sequê
 
 ## Video com divulgação do curso
 
-{{ youtube(id="0xxHiOSJVe8") }}
+{{ youtube("0xxHiOSJVe8") }}
 
 
 ## Primeira Semana

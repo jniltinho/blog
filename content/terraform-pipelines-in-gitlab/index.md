@@ -50,7 +50,7 @@ provider.tf
 
 ## Vídeo Howto do Gitlab-CI
 
-{{ youtube(id="wDjZGkfphbk") }}
+{{ youtube("wDjZGkfphbk") }}
 
 ![](/images/to-be-continued.png)
 
