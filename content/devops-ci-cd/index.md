@@ -64,6 +64,8 @@ Na prática, a implantação contínua significa que a mudança do desenvolvedor
 
 ----
 
+[![Continua](/images/to-be-continued.png)](/terraform-pipelines-in-gitlab/)
+
 ## Links
 
 * [CI/CD RedHat](https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd)

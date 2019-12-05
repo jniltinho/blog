@@ -66,8 +66,6 @@ provider.tf
 
 {{ youtube(id="wDjZGkfphbk") }}
 
-![](/images/to-be-continued.png)
-
 **Nota: Esse artigo vai ser melhorado em breve ...**
 
 ----
