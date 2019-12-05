@@ -16,11 +16,11 @@ comments = true
 
 ## Vamos falar sobre o GitLab
 
-![](gittlab-logo.png)
-
 O [GitLab](https://gitlab.com) é um serviço que hospeda projetos Git, similar ao [GitHub](https://github.com/). Eu mesmo hospedo alguns de [meus projetos](https://gitlab.com/jniltinho) no GitLab. Se você não gosta de serviços hospedados, o GitLab fornece um servidor autônomo que pode ser implantado no local ou na nuvem, a maior parte do desenvolvimento de seus produtos para servidores é de código aberto.
 
 O GitLab é um defensor do DevOps há muito tempo e agrupa uma tonelada de ferramentas úteis em seus produtos, incluindo quadros Kanban e um sistema completo de CI/CD. Você pode até usar o GitLab apenas para os recursos de CI/CD se o seu repositório git estiver em outro lugar.
+
+![](gittlab-logo.png)
 
 Existem alguns conceitos fundamentais para a abordagem do GitLab ao IC, que fazem sentido quando você está acostumado a eles, mas podem afetar sua decisão de usá-lo em seu projeto:
 
@@ -60,7 +60,7 @@ gkecluster.tf
 provider.tf
 ```
 
-## Para ilustrar esse artigo segue um vídeo criando um CI/CD no GitLab
+## Para ilustrar esse artigo segue um vídeo usando GitLab
 
 {{ youtube(id="wDjZGkfphbk") }}
 
