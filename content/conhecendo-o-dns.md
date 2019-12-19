@@ -1,12 +1,18 @@
----
-title: Conhecendo o DNS
-categories:
-- Linux
-date: 2017-04-05 21:00:03
-tags:
-- linux
-- howto
----
++++
+title = "Conhecendo o DNS"
+description = "Conhecendo o DNS"
+date = 2019-04-05T21:00:03Z
+draft = false
+slug = "conhecendo-o-dns"
+
+[taxonomies]
+categories = ["Linux"]
+tags = ["linux", "dns", "net", "dicas"]
+
+[extra]
+author = "jniltinho"
+comments = true
++++
 
 ## O que é DNS
 
@@ -19,14 +25,12 @@ O sistema de distribuição de nomes de domínio começou no ano de 1984, e atra
 O DNS baseia-se em nomes hierárquicos e permite a inscrição de vários dados digitados, além do nome do Hoste do IP (Internet Protocol).
 <!-- more -->
 
-{% youtube ACGuo26MswI %}
-
+{{ youtube(id="ACGuo26MswI") }}
 
 Pelo fato de o banco de dados de DNS ser distribuído, o tamanho é ilimitado e o desempenho não altera quando outros servidores são adicionados.
 Existem 13 servidores DNS no mundo todo e sem eles a Internet não funcionaria.
 O servidor DNS traduz nomes para os endereços IP e vice-versa, permitindo a localização de hostsem um domínio determinado.
 O servidor DNS é dividido entre DNS primário e DNS secundário, que é a cópia de segurança do DNS primário.
-
 
 ## O que é DNS Reverso ?
 
@@ -40,9 +44,7 @@ O DNS Reverso transforma 66.249.71.47 em dominio.com.br ou seja, um endereço IP
 
 O DNS padrão utiliza entradas do tipo "A Records" enquanto o DNS Reverso utilize "PTR records" que se parecem com "124.168.184.200.in-addr.arpa. PTR host.example.com" (enquanto um DNS padrão seria algo como "host.example.com. A 66.249.71.47").
 
-{% youtube VIa1dHtmQ4U?795x450 %}
-
-
+{{ youtube(id="VIa1dHtmQ4U") }}
 
 ## Funcionamento DNS Padrão
 
@@ -52,25 +54,17 @@ Ao criar um domínio você deve informar seus servidores de DNS que serão respo
 
 ![](/images/dns_02.png)
 
-
 ## Como funciona a Internet
 
 Serie feita pelo [Nic.br](https://www.youtube.com/channel/UCscVLgae-2f9baEXhVbM1ng) de como funciona a Internet, caso você esteja criando ou administrando um Servidor de E-mail, Sites, DNS, pare um pouco e veja esses 4 vídeos do Nic.br.
 
-  * [[https://www.youtube.com/watch?v=HNQD0qJ0TC4|Parte 1: O protocolo IP]]
-  * [[https://www.youtube.com/watch?v=C5qNAT_j63M|Parte 2: Sistemas Autônomos, BGP, PTTs.]]
-  * [[https://www.youtube.com/watch?v=ACGuo26MswI|Parte 3: DNS]]
-  * [[https://www.youtube.com/watch?v=ZYsjMEISR6E|Parte 4: Governança da Internet]]
-  * [[https://www.youtube.com/watch?v=epWv0-eqRMw|A importância do DNS nas redes]]
+* [[https://www.youtube.com/watch?v=HNQD0qJ0TC4|Parte 1: O protocolo IP]]
+* [[https://www.youtube.com/watch?v=C5qNAT_j63M|Parte 2: Sistemas Autônomos, BGP, PTTs.]]
+* [[https://www.youtube.com/watch?v=ACGuo26MswI|Parte 3: DNS]]
+* [[https://www.youtube.com/watch?v=ZYsjMEISR6E|Parte 4: Governança da Internet]]
+* [[https://www.youtube.com/watch?v=epWv0-eqRMw|A importância do DNS nas redes]]
 
 ## Links
 
-  * https://www.oficinadanet.com.br/artigo/1335/o_que_e_o_dns_reverso
-  * https://www.significados.com.br/dns/
-
-{% blockquote %}
-Chegamos ao fim do artigo, achou o que estava procurando?
-Faltou alguma informação?
-Alguma parte ficou mal redigida?
-Posso melhorar o artigo de alguma forma? Deixe seu feedback, é muito importante!
-{% endblockquote %}
+* https://www.oficinadanet.com.br/artigo/1335/o_que_e_o_dns_reverso
+* https://www.significados.com.br/dns/
