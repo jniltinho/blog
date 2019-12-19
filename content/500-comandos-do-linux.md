@@ -1,14 +1,18 @@
----
-title: Mais de 500 comandos do Linux
-categories:
-- Linux
-- Dicas
-date: 2017-04-11 08:00:28
-tags:
-- linux
-- dicas
-- comandos
----
++++
+title = "Mais de 500 comandos do Linux"
+description = "Mais de 500 comandos do Linux"
+date = 2019-11-04T08:00:28Z
+draft = false
+slug = "500-comandos-do-linux"
+
+[taxonomies]
+categories = ["Linux"]
+tags = ["linux", "cli", "dev", "dicas"]
+
+[extra]
+author = "jniltinho"
+comments = true
++++
 
 ![](/images/guia_linux_cli.png)
 
@@ -26,15 +30,6 @@ Esta apostila é de distribuição gratuita e pode ser compartilhada e baixada p
 
 **"Com grandes poderes, vem grandes responsabilidades" - Stan Lee.**
 
-
 ## Baixar o Guia
 
-  * [Guia + de 500 Comandos Linux](/dl/guia_500_comandos_Linux.pdf)
-
-
-{% blockquote %}
-Chegamos ao fim do artigo, achou o que estava procurando?
-Faltou alguma informação?
-Alguma parte ficou mal redigida?
-Posso melhorar o artigo de alguma forma? Deixe seu feedback, é muito importante!
-{% endblockquote %}
+* [Guia + de 500 Comandos Linux](/dl/guia_500_comandos_Linux.pdf)
