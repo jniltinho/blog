@@ -58,11 +58,11 @@ Ao criar um domínio você deve informar seus servidores de DNS que serão respo
 
 Serie feita pelo [Nic.br](https://www.youtube.com/channel/UCscVLgae-2f9baEXhVbM1ng) de como funciona a Internet, caso você esteja criando ou administrando um Servidor de E-mail, Sites, DNS, pare um pouco e veja esses 4 vídeos do Nic.br.
 
-* [[https://www.youtube.com/watch?v=HNQD0qJ0TC4|Parte 1: O protocolo IP]]
-* [[https://www.youtube.com/watch?v=C5qNAT_j63M|Parte 2: Sistemas Autônomos, BGP, PTTs.]]
-* [[https://www.youtube.com/watch?v=ACGuo26MswI|Parte 3: DNS]]
-* [[https://www.youtube.com/watch?v=ZYsjMEISR6E|Parte 4: Governança da Internet]]
-* [[https://www.youtube.com/watch?v=epWv0-eqRMw|A importância do DNS nas redes]]
+* [Parte 1: O protocolo IP](https://www.youtube.com/watch?v=HNQD0qJ0TC4)
+* [Parte 2: Sistemas Autônomos, BGP, PTTs](https://www.youtube.com/watch?v=C5qNAT_j63M)
+* [Parte 3: DNS](https://www.youtube.com/watch?v=ACGuo26MswI)
+* [Parte 4: Governança da Internet](https://www.youtube.com/watch?v=ZYsjMEISR6E)
+* [A importância do DNS nas redes](https://www.youtube.com/watch?v=epWv0-eqRMw)
 
 ## Links
 
