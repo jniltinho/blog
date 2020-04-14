@@ -4,7 +4,7 @@
 
 Static Site LinuxPro created with Zola + Netlify
 
-* [Versão Demo, migrando para o Zola](https://linuxpro.netlify.com/)
+* [Versão Demo, migrando para o Zola](https://linuxpro.netlify.app/)
 * [Versão Antiga, com Hugo](https://www.linuxpro.com.br)
 
 ![image](https://raw.githubusercontent.com/jniltinho/blog/master/static/images/site_screen.png)
