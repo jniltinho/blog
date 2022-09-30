@@ -33,5 +33,15 @@ jobs:
         with:
           name: site
           path: backup/blog/public
-      - name: "Install Hexo CLI"
-        run: ls -ila; ls -ila backup/blog; ls -ila backup/blog/public
+      - name: "List Blog Files"
+        run: ls -ila backup/blog/public
+      - id: 'auth'
+        uses: 'google-github-actions/auth@v0'
+        with:
+          credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
+      - name: "Deploy GCP SDK"
+        uses: 'google-github-actions/setup-gcloud@v0'
+      - name: "Deploy APPEngine"
+        run: cd backup/blog/; gcloud -q --project=bloglinuxpro app deploy app.yaml -v=v$(date +'%Y%m%d-%H%M') --promote
+
+
