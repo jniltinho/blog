@@ -13,6 +13,8 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 16
+    - name: "Install Hexo CLI"
+      run: npm install hexo-cli -g
     - run: cd backup/blog; npm install
     - run: cd backup/blog; hexo generate
     - name: Archive code coverage results
