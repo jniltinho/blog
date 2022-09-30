@@ -1,0 +1,13 @@
+.gcloudignore
+.github
+.git
+.gitignore
+LICENSE
+README.md
+_config.yml
+db.json
+deploy_blog.sh
+node_modules
+package-lock.json
+package.json
+source
