@@ -5,7 +5,7 @@ on:
 
 
 jobs:
-  deploy-blog:
+  gerate-blog:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -17,8 +17,20 @@ jobs:
       run: npm install hexo-cli -g
     - run: cd backup/blog; npm install
     - run: cd backup/blog; hexo generate
-    - name: Archive code coverage results
+    - name: Archive code Hexo results
       uses: actions/upload-artifact@v3
       with:
         name: site
         path: backup/blog/public
+
+  deploy-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: "Download code Hexo results"
+        uses: actions/download-artifact@v3
+        with:
+          name: site
+          path: backup/blog/public
+      - name: "Install Hexo CLI"
+        run: ls -ila; ls -ila backup/blog; ls -ila backup/blog/public
