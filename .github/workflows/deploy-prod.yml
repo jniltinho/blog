@@ -5,7 +5,7 @@ on:
 
 
 jobs:
-  gerate-blog:
+  generate-blog:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -24,6 +24,7 @@ jobs:
         path: backup/blog/public
 
   deploy-blog:
+    needs: generate-blog
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
