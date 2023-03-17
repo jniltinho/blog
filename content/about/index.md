@@ -7,8 +7,6 @@ title = "About Me"
 
 **Hello everyone! My name is Nilton, and I have been working in IT for over 10 years, with almost 8 of those years as an Infrastructure Analyst. I am passionate about technology and Linux, having been captivated by it even before the commercial internet arrived in Brazil.**
 
-Hello everyone! My name is Nilton, and I have been working in IT for over 10 years, with almost 8 of those years as an Infrastructure Analyst. I am passionate about technology and Linux, having been captivated by it even before the commercial internet arrived in Brazil.
-
 My expertise lies in Linux systems and open-source applications, as I have been managing Linux environments since 1999. I have spent most of my career working with infrastructure, primarily in Linux environments (90%) and fully virtualized setups using Xen Hypervisor with Citrix's XenServer.
 
 I am also a self-taught programmer, having learned Perl, PHP, Python, and Golang the hard way, but not before starting with small Bash scripts.
